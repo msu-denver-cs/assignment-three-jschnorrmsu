@@ -1,11 +1,11 @@
 Rails.application.routes.draw do
 
-  devise_for :installs
-  resources :parts do
-    collection do
-      get 'search'
-    end
-  end
+  #devise_for :installs
+  #resources :parts do
+   # collection do
+   #   get 'search'
+   # end
+  #end
 
   resources :cars do
     collection do
